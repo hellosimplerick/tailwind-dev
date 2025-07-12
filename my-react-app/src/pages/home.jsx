@@ -1,14 +1,14 @@
 // /src/pages/home.jsx
 
-import React, { useState, useRef, useEffect } from 'react';
-import { HiChevronLeft, HiChevronRight } from 'react-icons/hi';
-import { Link } from 'react-router-dom';
-import Layout from '../components/Layout';
+import React, { useState, useRef, useEffect } from "react";
+import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
+import { Link } from "react-router-dom";
+import Layout from "../components/Layout";
 
 // Carousel text slides (add/edit as needed)
 const SLIDES = [
   {
-    headline: 'Memories Matter.<br />Keep Yours Safe Forever.',
+    headline: "Memories Matter.<br />Keep Yours Safe Forever.",
     body: (
       <>
         Effortlessly upload, organize, and relive your most precious moments
@@ -20,7 +20,7 @@ const SLIDES = [
     ),
   },
   {
-    headline: 'Secure. Private. Yours.',
+    headline: "Secure. Private. Yours.",
     body: (
       <>
         Your photos are never sold or mined for ads. <br />
@@ -29,7 +29,7 @@ const SLIDES = [
     ),
   },
   {
-    headline: 'AI-Organized, Human-Touch',
+    headline: "AI-Organized, Human-Touch",
     body: (
       <>
         Our AI helps you find, tag, and sort your memories. <br />
@@ -38,7 +38,7 @@ const SLIDES = [
     ),
   },
   {
-    headline: 'Family-Friendly Sharing',
+    headline: "Family-Friendly Sharing",
     body: (
       <>
         Invite your family or friends, share entire albums, <br />
@@ -92,7 +92,7 @@ export default function Home() {
         style={{
           backgroundImage: "url('/oldimg.png')",
           opacity: 0.4,
-          filter: 'brightness(1.2)',
+          filter: "brightness(1.2)",
         }}
         aria-hidden="true"
       />
@@ -138,9 +138,9 @@ export default function Home() {
                 onClick={() => goToSlide(idx)}
                 aria-label={`Go to slide ${idx + 1}`}
                 className={`w-3 h-3 rounded-full transition ${
-                  slide === idx ? 'bg-[#25a7f0]' : 'bg-gray-300'
+                  slide === idx ? "bg-[#25a7f0]" : "bg-gray-300"
                 }`}
-                style={{ outline: 'none' }}
+                style={{ outline: "none" }}
               />
             ))}
           </div>
