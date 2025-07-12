@@ -6,7 +6,7 @@ function App() {
       <div className="max-w-md mx-auto bg-white dark:bg-slate-800 rounded-xl shadow-2xl overflow-hidden p-8 space-y-4">
         {/* Header Section */}
         <div className="text-center">
-          <h1 className="text-4xl font-bold text-indigo-600 dark:text-indigo-400">
+          <h1 className="text-4xl font-bold text-blue-900 dark:text-indigo-400">
             Tailwind is Working!
           </h1>
           <p className="mt-2 text-lg text-slate-600 dark:text-slate-300">
@@ -37,7 +37,7 @@ function App() {
         {/* Action Button */}
         <div className="pt-4">
           <button className="w-full bg-pink-600 hover:bg-indigo-700 text-white font-bold py-3 px-4 rounded-lg focus:outline-none focus:ring-4 focus:ring-indigo-300 dark:focus:ring-indigo-800 transition-all duration-300 ease-in-out">
-            Awesome!
+            Kawabunga!
           </button>
         </div>
       </div>
