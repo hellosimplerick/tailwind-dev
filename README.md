@@ -1,4 +1,4 @@
-This is a super basic template for react js/tailwind v3. What's below is the output from Google's AI studio if you want to make this yourself.
+# This is a super basic template for react js/tailwind v3. What's below is the output from Google's AI studio if you want to make this yourself
 
 # A Verified, Manual-Fix Guide for React + Tailwind in Codespaces
 
