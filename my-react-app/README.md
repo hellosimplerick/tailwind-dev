@@ -7,7 +7,9 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Why I build this. well, modifed the basic
+## Why I build this
+
+well, I modifed the basic codespaces template to get something where i cold test UI/UX without the messing with the 'real' builds.
 
 Trying to get tailwind 4.0 running was so painful. To finally get this basic working but this is tailwind ver 3 not ver 4
 
