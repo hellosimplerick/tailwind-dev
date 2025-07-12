@@ -21,7 +21,7 @@ function App() {
         <ul className="list-disc list-inside space-y-2 text-slate-700 dark:text-slate-200">
           <li>
             Styled with{" "}
-            <code className="bg-slate-200 dark:bg-slate-700 rounded px-1 font-mono text-sm">
+            <code className="bg-slate-200 dark:bg-slate-700 rounded-sm px-1 font-mono text-sm">
               utility classes
             </code>
             .
@@ -36,7 +36,7 @@ function App() {
 
         {/* Action Button */}
         <div className="pt-4">
-          <button className="w-full bg-pink-600 hover:bg-indigo-700 text-white font-bold py-3 px-4 rounded-lg focus:outline-none focus:ring-4 focus:ring-indigo-300 dark:focus:ring-indigo-800 transition-all duration-300 ease-in-out">
+          <button className="w-full bg-pink-600 hover:bg-indigo-700 text-white font-bold py-3 px-4 rounded-lg focus:outline-hidden focus:ring-4 focus:ring-indigo-300 dark:focus:ring-indigo-800 transition-all duration-300 ease-in-out">
             Kawabunga!
           </button>
         </div>
