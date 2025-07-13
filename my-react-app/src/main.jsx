@@ -1,18 +1,19 @@
-// bessie-frontend/src/main.jsx
+// src/main.jsx
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
-import "./index.css"; // ✅ Tailwind
-import 'mapbox-gl/dist/mapbox-gl.css'; // ✅ Mapbox
+import "./index.css"; // KEEP THIS LINE! It's our Tailwind source.
 
-import { GoogleOAuthProvider } from "@react-oauth/google"; // ✅ ADD THIS
+// Comment out or delete these lines temporarily:
+// import App from "./App.jsx";
+// import 'mapbox-gl/dist/mapbox-gl.css';
+// import { GoogleOAuthProvider } from "@react-oauth/google";
+// const CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID;
 
-const CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID; // ✅ Uses your .env.local var
+import TestPage from "./TestPage"; // IMPORT OUR NEW TEST PAGE
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <GoogleOAuthProvider clientId={CLIENT_ID}>
-      <App />
-    </GoogleOAuthProvider>
+    {/* Render only our TestPage, bypassing App and GoogleOAuthProvider */}
+    <TestPage />
   </React.StrictMode>
 );

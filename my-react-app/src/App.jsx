@@ -2,7 +2,7 @@
 
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/home";
+import Home from "./pages/home.org";
 import About from "./pages/about";
 import Pricing from "./pages/pricing";
 import Features from "./pages/features";
@@ -16,6 +16,7 @@ function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/welcome" element={<Welcome />} />
